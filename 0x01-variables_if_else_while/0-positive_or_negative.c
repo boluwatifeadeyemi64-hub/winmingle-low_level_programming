@@ -21,4 +21,5 @@ int main(){
 	{
 		printf("number is zero\n");
 	}
+	return(0);
 }
