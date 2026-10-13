@@ -1,3 +1,5 @@
 #!/bin/bash
-
-gcc -S $CFILE -o 2-assembler.s
+/* Author:Boluwatife Adeyemi
+ * Program: WinMingle Community C Training         * Description:Introduction to C                   * Hello world
+ */
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -S $CFILE -o 2-assembler.s
