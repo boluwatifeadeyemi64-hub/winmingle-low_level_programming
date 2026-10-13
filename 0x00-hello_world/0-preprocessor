@@ -1,2 +1,7 @@
+
+/* Author:Boluwatife Adeyemi
+ * Program: WinMingle Community C Training
+ * Description:Introduction to C                   * Hello world
+ */
 #!/bin/bash
-gcc -E $CFILE -o c
+ gcc -E $CFILE -o c
