@@ -4,5 +4,7 @@
  * Description: This program prints something using puts
  */
 
-int main(){    puts("Programming is like building multilingual puzzle\n");    return 0;
+int main(){
+	    puts("Programming is like building multilingual puzzle\n");
+	    return(0);
 }
