@@ -1,7 +1,8 @@
 
+#!/bin/bash
 /* Author:Boluwatife Adeyemi
  * Program: WinMingle Community C Training
  * Description:Introduction to C                   * Hello world
  */
-#!/bin/bash
+
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -E $CFILE -o c
