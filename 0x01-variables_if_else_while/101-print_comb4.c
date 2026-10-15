@@ -3,7 +3,7 @@
 
 int main(){
     int n;
-    for(n = 012; n <= 789; n++)
+    for(n = 100; n <= 999; n++)
     { 
         printf("%d,\t",n);
     }
