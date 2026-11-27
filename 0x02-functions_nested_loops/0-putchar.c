@@ -1,16 +1,11 @@
-#include <stdio.h>
+#include <unistd.h>
 /* Author: Boluwatife Adeyemi
  * Program: WinMingle Community C Training
- * Description: This program prints putchar using only the putchar() function
+ * Description: This program prints putchar using write function:
  */
 
 int main() {
-	char *str = "_putchar";
-	while(*str)
-	{
-		putchar(*str);
-		str++;
-	}
-	putchar('\n');
+	write(1, "_putchar" , 8);
 	return(0);
 }
+
